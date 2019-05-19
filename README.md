@@ -14,6 +14,7 @@ Two of my favourite subjects, open source and deployment to the cloud
 * Cloud
     * Setup pipeline and deploy hello world first
     * Feature branching (gitflow)
+    * Commit strategy + Changelog generation
     * Merging strategies
     * Automation - automated testing (cypress), extra tools like static code analysis / mutation testing
     * CI (run all automation)
