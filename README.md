@@ -1,6 +1,9 @@
 # opensource-and-cloud-deployment
 
-Two of my favourite subjects, open source and deployment to the cloud
+Two of my favourite subjects, open source and deployment pipeline.
+
+<b>Open source</b> powers most of the internet, linux, python, angular, bootstrap etc. What powers open source? The community, YOU!
+With all these great tools at our finger tips, how best do we manage them and deploy them. We will through <b>open source</b> and how best to manage your <b>pipepline</b>.
 
 ## Notes
 
