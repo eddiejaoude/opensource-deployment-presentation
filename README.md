@@ -12,6 +12,7 @@ Two of my favourite subjects, open source and deployment to the cloud
     * What are the benefits to a project maintainer
     * Maintainer tips
 * Cloud
+    * Setup pipeline and deploy hello world first
     * Feature branching (gitflow)
     * Merging strategies
     * Automation - automated testing (cypress), extra tools like static code analysis / mutation testing
