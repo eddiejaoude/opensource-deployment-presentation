@@ -2,7 +2,7 @@
 
 Open Source powers most of the internet, through  the existence of linux, python, angular and bootstrap to name a few.  
 
-With some Open Source projects having in excess of 30,000 contributors, it is necessary for there to be methods and standards in order for these projects to succeed. 
+With some Open Source projects having in excess of 70,000 contributors, it is necessary for there to be methods and standards in order for these projects to succeed. 
 
 We will be looking at how we can best manage and deploy the great tools we have at our disposal in order to achieve better collaboration, less technical conflicts and ultimately a more inclusive project.
 
