@@ -1,9 +1,13 @@
 # opensource-and-cloud-deployment
 
-Two of my favourite subjects, open source and deployment pipeline.
+Open Source powers most of the internet, through  the existence of linux, python, angular and bootstrap to name a few.  
 
-<b>Open source</b> powers most of the internet, linux, python, angular, bootstrap etc. What powers open source? The community, YOU!
-With all these great tools at our finger tips, how best do we manage them and deploy them. We will through <b>open source</b> and how best to manage your <b>pipepline</b>.
+With some Open Source projects having in excess of 30,000 contributors, it is necessary for there to be methods and standards in order for these projects to succeed. 
+
+We will be looking at how we can best manage and deploy the great tools we have at our disposal in order to achieve better collaboration, less technical conflicts and ultimately a more inclusive project.
+
+This talk will also look at one of the biggest drivers in Open Source: it’s Community, and how best to be part of this Community both from a contributor and maintainer perspective. 
+
 
 ## Notes
 
