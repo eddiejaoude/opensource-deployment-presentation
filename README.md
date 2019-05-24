@@ -8,6 +8,7 @@ We will be looking at how we can best manage and deploy the great tools we have 
 
 This talk will also look at one of the biggest drivers in Open Source: it’s Community, and how best to be part of this Community both from a contributor and maintainer perspective. 
 
+![Screenshot](https://user-images.githubusercontent.com/624760/58321740-e6ea3600-7e16-11e9-9a7a-d175bf2624a9.png)
 
 ## Notes
 
