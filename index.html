@@ -263,6 +263,45 @@
 
 				<section>
 					<h2>Committing</h2>
+					<pre><code class="hljs" data-line-numbers="3" data-trim>
+						git commit -m "message goes here" .
+						git commit -m "#123 message goes here" .
+						git commit -m "feat(auth): #123 message goes here" .
+					</code></pre>
+					<aside class="notes">
+						<ul>
+							<li>Coventional changelog</li>
+							<li>Generates changelog</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section>
+					<h2>Changelog</h2>
+					<pre><code class="hljs" data-line-numbers="1,3,5,12" data-trim>
+							## Bug Fixes
+
+							compiler: ensure that event handlers have the correct source spans (#28055) (cffd862)
+							compiler: fix two existing expression transformer issues (#28523) (09af7ea)
+							core: improve global variable detection (#28679) (77eee42), closes #16545
+							core: use the correct generated URL for JIT compiled components (#28055) (4f46bfb)
+							core: use the correct template URL in render3 JIT compilation (#28055) (a5ea55a)
+							forms: mark form as pristine before emitting value and status change events (#28395) (1df3aef), closes #28130
+							router: redirect to root url when returned as UrlTree from guard (#28271) (50732e1), closes #27845
+							router: set href when routerLink is used on an 'area' element (#28441) (ed0cf7e), closes #28401
+
+							## Features
+
+							compiler: support tokenizing a sub-section of an input string (#28055) (eeb560a)
+							compiler: support tokenizing escaped strings (#28055) (2424184)
+							compiler-cli: no longer re-export external symbols by default (#28633) (91b7152), closes #28594 #25644 #25644
+					</code></pre>
+					<aside class="notes">
+						<ul>
+							<li>Coventional changelog</li>
+							<li>Generates changelog</li>
+						</ul>
+					</aside>
 				</section>
 
 				<section>
