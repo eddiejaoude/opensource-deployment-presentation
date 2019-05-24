@@ -1,254 +1,262 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Open Source Pipeline</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+	<title>Open Source Pipeline</title>
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/monokai.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
 				<section>
-					<section>
-						<h2>Open Source Pipeline</h2>
-						<h3><small>Community / Branching / Commit / Merge / Deployments</small></h3>
-						<aside class="notes">
-							<ul>
-								<li>Thank the organisers</li>
-								<li>Are they Students? I didn’t even go to lectures let alone organise/speak at events</li>
-								<li>What a wonderful community GDG Cloud is! Very welcoming and inclusive</li>
+					<h2>Open Source Pipeline</h2>
+					<h3><small>Community / Branching / Commit / Merge / Deployments</small></h3>
+					<aside class="notes">
+						<ul>
+							<li>Thank the organisers</li>
+							<li>Are they Students? I didn’t even go to lectures let alone organise/speak at events</li>
+							<li>What a wonderful community GDG Cloud is! Very welcoming and inclusive</li>
 						</ul>
-						</aside>
-					</section>
-					<section>
-						<h3>Abstract</h3>
-						<p><small>
-							Open Source powers most of the internet, through  the existence of linux, python, angular and bootstrap to name a few.
-							With some Open Source projects having in excess of 70,000 contributors, it is necessary for there to be methods and standards in order for these projects to succeed.
-							We will be looking at how we can best manage and deploy the great tools we have at our disposal in order to achieve better collaboration, less technical conflicts and ultimately a more inclusive project.
-							This talk will also look at one of the biggest drivers in Open Source: it’s Community, and how best to be part of this Community both from a contributor and maintainer perspective.
+					</aside>
+				</section>
+				<section>
+					<h3>Abstract</h3>
+					<p><small>
+							Open Source powers most of the internet, through the existence of linux, python, angular and bootstrap to
+							name a few.
+							With some Open Source projects having in excess of 70,000 contributors, it is necessary for there to be
+							methods and standards in order for these projects to succeed.
+							We will be looking at how we can best manage and deploy the great tools we have at our disposal in order
+							to achieve better collaboration, less technical conflicts and ultimately a more inclusive project.
+							This talk will also look at one of the biggest drivers in Open Source: it’s Community, and how best to be
+							part of this Community both from a contributor and maintainer perspective.
 						</small></p>
-						<aside class="notes">
-							<ul>
-								<li>If I use English expressions please ask! Ipromise no big words because I don’t know any</li>
-								<li>Everyone’s English is amazing, after 20 year with my wife I only know 10 Portuguese words and 5 are useless</li>
-								<li>Do you know the series Friends? Does anyone remember Joey trying to learn French</li>
-							</ul>
-						</aside>
-					</section>
-					<section>
-							<iframe src="https://www.youtube.com/embed/kujMmdwGPoo?start=25" width="100%" height="500"></iframe>
-					</section>
-					<section>
-						<h3>Part 1 - Open Source</h3>
+					<aside class="notes">
 						<ul>
-							<li>What is Open Source</li>
-							<li>How can you get involved</li>
-							<li>Tips as a project maintainer</li>
-							<li>Why Open Source your Project</li>
+							<li>If I use English expressions please ask! Ipromise no big words because I don’t know any</li>
+							<li>Everyone’s English is amazing, after 20 year with my wife I only know 10 Portuguese words and 5 are
+								useless</li>
+							<li>Do you know the series Friends? Does anyone remember Joey trying to learn French</li>
 						</ul>
-						<aside class="notes">
-								<ul>
-									<li>Ask what job roles people do</li>
-									<li>Who contributes to open source</li>
-									<li>For the ones that don't, who would like to</li>
-								</ul>
-							</aside>
-					</section>
-					<section>
-						<h3>Part 2 - Pipeline</h3>
+					</aside>
+				</section>
+				<section>
+					<iframe src="https://www.youtube.com/embed/kujMmdwGPoo?start=25" width="100%" height="500"></iframe>
+				</section>
+				<section>
+					<h3>Part 1 - Open Source</h3>
+					<ul>
+						<li>What is Open Source</li>
+						<li>How can you get involved</li>
+						<li>Tips as a project maintainer</li>
+						<li>Why Open Source your Project</li>
+					</ul>
+					<aside class="notes">
 						<ul>
-							<li>Branching strategy</li>
-							<li>Commit strategy</li>
-							<li>Merge strategy</li>
-							<li>Continuous integration</li>
-							<li>Deployment strategy</li>
+							<li>Ask what job roles people do</li>
+							<li>Who contributes to open source</li>
+							<li>For the ones that don't, who would like to</li>
 						</ul>
-						<aside class="notes">
-								<ul>
-									<li>Who uses a branching strategy (e.g. gitflow)</li>
-									<li>Who uses a commit strategy</li>
-									<li>Who uses a CI strategy (e.g. automated tests)</li>
-									<li>Who uses a deployment strategy</li>
-								</ul>
-							</aside>
-					</section>
-					<section>
-						<h2>About Me</h2>
-						<h4>Eddie Jaoude</h4>
-						<p>Passionate for #opensource and #inclusion</p>
+					</aside>
+				</section>
+				<section>
+					<h3>Part 2 - Pipeline</h3>
+					<ul>
+						<li>Branching strategy</li>
+						<li>Commit strategy</li>
+						<li>Merge strategy</li>
+						<li>Continuous integration</li>
+						<li>Deployment strategy</li>
+					</ul>
+					<aside class="notes">
 						<ul>
-							<li>youtube.com/eddiejaoude</li>
-							<li>github.com/eddiejaoude</li>
-							<li>twitter.com/eddiejaoude</li>
-							<li>instagram.com/eddiejaoude</li>
+							<li>Who uses a branching strategy (e.g. gitflow)</li>
+							<li>Who uses a commit strategy</li>
+							<li>Who uses a CI strategy (e.g. automated tests)</li>
+							<li>Who uses a deployment strategy</li>
 						</ul>
-					</section>
+					</aside>
 				</section>
-
 				<section>
-					<section>
-						<h2>Open Source</h2>
-						<p>What is Open Source?</p>
-						<aside class="notes">
-							<li>Social coding</li>
-							<li>Similar to Social Media</li>
-							<li>Step further and make improvements</li>
-						</aside>
-					</section>
-					<section>
-						<h2>Who is Open Source</h2>
-						<ul>
-							<li>Spotify, Netflix</li>
-							<li>Facebook, Twitter</li>
-							<li>Google, Microsoft</li>
-							<li>Banks, Governments</li>
-						</ul>
-					</section>
-					<section>
-						<h2>What else is Open Source</h2>
-						<ul>
-							<li>Cooking receipts</li>
-							<li>Templates for job descriptions, code of conduct, legal docs etc</li>
-						</ul>
-					</section>
-					<section>
-						<h2>Example Projects</h2>
-						<ul>
-							<li>Angular, React</li>
-							<li>Bootstrap, Material</li>
-							<li>TensorFlow</li>
-						</ul>
-					</section>
-					<section>
-							<h2>Not just about Code</h2>
-							<ul>
-								<li>Living project</li>
-								<li>Conversation</li>
-								<li>Culture</li>
-								<li>Community</li>
-							</ul>
-							<aside class="notes">
-									<li>Conversations</li>
-									<li>Confirming a defect / adding more info</li>
-								</aside>
-						</section>
-					<section>
-							<h2>Benefits</h2>
-							<ul>
-								<li>Reviews & testing</li>
-								<li>Ideas / feedback</li>
-								<li>Documentation verified</li>
-								<li>Hiring / recruitment stream</li>
-							</ul>
-						</section>
-					<section>
-							<h2>In practice</h2>
-							<ul>
-								<li>Long game, marathon</li>
-								<li>Start as soon as possible</li>
-								<li>Defacto standard is GitHub</li>
-								<li>Licensing choosealicense.com</li>
-							</ul>
-						</section>
+					<h2>About Me</h2>
+					<h4>Eddie Jaoude</h4>
+					<p>Passionate for #opensource and #inclusion</p>
+					<ul>
+						<li>youtube.com/eddiejaoude</li>
+						<li>github.com/eddiejaoude</li>
+						<li>twitter.com/eddiejaoude</li>
+						<li>instagram.com/eddiejaoude</li>
+					</ul>
 				</section>
+			</section>
 
+			<section>
 				<section>
-					<section>
-						<h2>How can you get invovled</h2>
-						<ul>
-							<li></li>
-						</ul>
-					</section>
+					<h2>Open Source</h2>
+					<p>What is Open Source?</p>
+					<aside class="notes">
+						<li>Social coding</li>
+						<li>Similar to Social Media</li>
+						<li>Step further and make improvements</li>
+					</aside>
 				</section>
+				<section>
+					<h2>Who is Open Source</h2>
+					<ul>
+						<li>Spotify, Netflix</li>
+						<li>Facebook, Twitter</li>
+						<li>Google, Microsoft</li>
+						<li>Banks, Governments</li>
+					</ul>
+				</section>
+				<section>
+					<h2>What else is Open Source</h2>
+					<ul>
+						<li>Cooking receipts</li>
+						<li>Templates for job descriptions, code of conduct, legal docs etc</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Example Projects</h2>
+					<ul>
+						<li>Angular, React</li>
+						<li>Bootstrap, Material</li>
+						<li>TensorFlow</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Not just about Code</h2>
+					<ul>
+						<li>Living project</li>
+						<li>Conversation</li>
+						<li>Culture</li>
+						<li>Community</li>
+					</ul>
+					<aside class="notes">
+						<li>Conversations</li>
+						<li>Confirming a defect / adding more info</li>
+					</aside>
+				</section>
+				<section>
+					<h2>Benefits</h2>
+					<ul>
+						<li>Reviews & testing</li>
+						<li>Ideas / feedback</li>
+						<li>Documentation verified</li>
+						<li>Hiring / recruitment stream</li>
+					</ul>
+				</section>
+				<section>
+					<h2>In practice</h2>
+					<ul>
+						<li>Long game, marathon</li>
+						<li>Start as soon as possible</li>
+						<li>Defacto standard is GitHub</li>
+						<li>Licensing choosealicense.com</li>
+					</ul>
+				</section>
+			</section>
 
+			<section>
 				<section>
-					<section>
-						<h2>Tips as a project maintainer</h2>
-					</section>
+					<h2>How can you get invovled</h2>
+					<ul>
+						<li></li>
+					</ul>
 				</section>
+			</section>
 
+			<section>
 				<section>
-					<section>
-						<h2>Why Open Source your project</h2>
-					</section>
+					<h2>Tips as a project maintainer</h2>
 				</section>
+			</section>
 
+			<section>
 				<section>
-					<section>
-						<h2>Pipeline Branching</h2>
-					</section>
+					<h2>Why Open Source your project</h2>
 				</section>
+			</section>
 
+			<section>
 				<section>
-					<section>
-						<h2>Pipeline Commit</h2>
-					</section>
+					<h2>Pipeline Branching</h2>
 				</section>
+			</section>
 
+			<section>
 				<section>
-					<section>
-						<h2>Pipeline Merge</h2>
-					</section>
+					<h2>Pipeline Commit</h2>
 				</section>
+			</section>
 
+			<section>
 				<section>
-					<section>
-						<h2>Pipeline Deployment</h2>
-					</section>
+					<h2>Pipeline Merge</h2>
 				</section>
+			</section>
 
+			<section>
 				<section>
-					<section>
-						<h2>Demo</h2>
-						<aside class="notes">
-							If time allows
-						</aside>
-					</section>
+					<h2>Pipeline Deployment</h2>
 				</section>
-			</div>
+			</section>
+
+			<section>
+				<section>
+					<h2>Demo</h2>
+					<aside class="notes">
+						If time allows
+					</aside>
+				</section>
+			</section>
 		</div>
+	</div>
 
-		<script src="js/reveal.js"></script>
+	<script src="js/reveal.js"></script>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				transition: 'convex', // none/fade/slide/convex/concave/zoom
-				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-				// parallaxBackgroundSize: '4200px 1800px', // CSS syntax, e.g. "2100px 900px"
-				// Number of pixels to move the parallax background per slide
-				// - Calculated automatically unless specified
-				// - Set to 0 to disable movement along an axis
-				// parallaxBackgroundHorizontal: 100,
-				// parallaxBackgroundVertical: 100,
-				history: true,
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
-			});
-		</script>
-	</body>
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			transition: 'convex', // none/fade/slide/convex/concave/zoom
+			// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+			// parallaxBackgroundSize: '4200px 1800px', // CSS syntax, e.g. "2100px 900px"
+			// Number of pixels to move the parallax background per slide
+			// - Calculated automatically unless specified
+			// - Set to 0 to disable movement along an axis
+			// parallaxBackgroundHorizontal: 100,
+			// parallaxBackgroundVertical: 100,
+			history: true,
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true }
+			]
+		});
+	</script>
+</body>
+
 </html>
